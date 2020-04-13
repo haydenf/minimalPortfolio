@@ -155,10 +155,10 @@ li{
         flex-direction: column;
     }
   }
+  
   @media only screen and (max-width: 480px) {
     .aboutText {
-        font-size: 18px;
-        margin-right: 2vw;
+        font-size: 16px;
     }
     li{
         font-size: 10px;
@@ -179,28 +179,16 @@ li{
         padding-bottom: 12vh;
     }
   }
-  @media only screen and (max-width: 480px) {
-    .aboutText {
-        font-size: 16px;
-    }
-    li{
-        font-size: 10px;
-        margin-right: 5vh;
-    }
-    .socialLinks {
-        font-size: 14px;
-        display:flex;
-        justify-content: center;
-    }
-    .circle {
-        height: 5.9vw;
-        width: 3vw;
-    }
+
+  @media only screen and (max-width: 380px) {
+  
     .workUl {
         height: 0vw;
-        width: 90vw;
-        margin-right: 10%;
-        padding-bottom: 18vh;
+        width: 85vw;
+        padding-bottom: 15vh;
+    }
+    li{
+        font-size: 9px;
     }
   }
 
