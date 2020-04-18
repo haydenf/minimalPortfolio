@@ -59,20 +59,14 @@ body {
     align-items: flex-start;
     font-weight: 500;
 }
-.ulTogether {
-    bottom: 0;
-    position: absolute;
-} 
+
 li{
-    /* display:flex; */
+    display:flex;
     font-size: 15px;
-    /* justify-content: center; */
+    justify-content: center;
     list-style: none;
     display:block;
-}
-.row-ul {
-    bottom: 0;
-    position: absolute;
+    display:flex;
 }
 
 .liHeaders {
